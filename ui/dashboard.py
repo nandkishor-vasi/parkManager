@@ -14,6 +14,9 @@ def inject_custom_css() -> None:
             visibility: hidden !important;
             height: 0px !important;
         }
+        .stApp, .stApp p, .stApp span, .stApp label, .stApp div, .stApp h1, .stApp h2, .stApp h3, .stApp h4, .stApp h5 {
+            color: #000000 !important;
+        }
         .stApp {
             background-color: #F8F9FD !important;
             color: #1E293B !important;
